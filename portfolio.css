@@ -39,8 +39,7 @@ body {
   color: var(--title-text-color);
 }
 
-/* site-nav */
-
+  /* site-nav */
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -55,7 +54,7 @@ body {
   text-decoration: none;
 }
 
-/* hero */
+  /* hero */
 .filter {
   color: var(--title-text-color);
   background-color: #ffffff;
@@ -69,7 +68,7 @@ body {
   color: var(--accent-color);
 }
 
-/* container */
+  /* container */
 .filter .box-title {
   font-weight: 700;
   font-size: 18px;
@@ -83,7 +82,7 @@ body {
   color: var(--primery-text-color);
 }
 
-/* contacts */
+  /* contacts */
 .contacts {
   background-color: var(--dark-gray-color);
 }
@@ -105,7 +104,7 @@ body {
   color: var(--white-color);
 }
 
-/* address */
+  /* address */
 .work-address {
   color: var(--white-color);
   font-style: normal;

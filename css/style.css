@@ -18,16 +18,16 @@ body {
 
 .list {
   list-style: none;
-  }
+}
 
 .page-header {
   background-color: var(--white-color);
-  }
+}
 
   /* logo */
 .button {
   font-family: inherit;
-  }
+}
 
 .logo {
   font-family: Raleway,cursive;
@@ -39,11 +39,11 @@ body {
 
 .page-header .web {
   color: var(--accent-color);
-  }
+}
 
 .page-header .studio {
   color: var(--title-text-color);
-  }
+}
 
   /* site-nav */
 .site-nav a {
@@ -58,15 +58,15 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-  }
+}
 
 .site-nav .link {
   color: var(--title-text-color);
-  }
+}
 
 .site-nav .current {
   color: var(--accent-color);
-  }
+}
 
   .address .info {
     color: var(--primery-text-color);
@@ -76,7 +76,8 @@ body {
     font-style: normal;
     letter-spacing: 0.02em;
     text-decoration: none;
-    }
+  }
+
   /* hero */
 .hero-title {
   color: var(--white-color);
@@ -87,7 +88,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  }
+}
 
 .button {
   color: #ffffff;
@@ -99,7 +100,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  }
+}
 
   /* dignity */
 .dignity .title {
@@ -107,12 +108,12 @@ body {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  }
+}
 
   /* exemples и teams */
 .exemples {
   background-color: #ffffff;
-  }
+}
 
 .exemples .title,
 .teams .title {
@@ -121,11 +122,11 @@ body {
   font-size: 36px;
   text-align: center;
   line-height: 1.17;
-  }
+}
 
 .teams {
   background-color: #f5f4fa;
-  }
+}
 
  .teams .name {
   background-color: #ffffff;
@@ -135,14 +136,15 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  }
+}
 
  .teams .name-title {
    color: #212121;
-  }
+}
+
  .name .text {
    font-weight: normal;
- }
+}
 
   /* footer */
 .contacts {

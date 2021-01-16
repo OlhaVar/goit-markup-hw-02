@@ -9,7 +9,7 @@
 
 body {
   color: var(--primery-text-color);
-  font-family: roboto;sans-serif;
+  font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -22,14 +22,13 @@ body {
 }
 
 .page-header .logo {
-  font-family: Raleway;
+  font-family: raleway;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19px;
   text-decoration: none;
 }
-
 
 .page-header .web {
   color: var(--accent-color);
@@ -39,9 +38,10 @@ body {
   color: var(--title-text-color);
 }
 
-  /* site-nav */
+/* site-nav */
 .site-nav .link {
   color: var(--title-text-color);
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -49,52 +49,89 @@ body {
   text-decoration: none;
 }
 
-.site-nav .current {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
   text-decoration: none;
 }
 
-  /* hero */
-.filter {
-  color: var(--title-text-color);
-  background-color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  }
-
-.filter .button:hover,
-.filter .button:focus {
+.site-nav .current {
   color: var(--accent-color);
 }
 
-  /* container */
-.filter .box-title {
+.address .info:hover,
+.address .info:focus {
+  color: var(--accent-color);
+}
+
+.address .info {
+  color: var(--primery-text-color);
+  text-decoration: none;
+}
+
+/* hero */
+.filter-button {
+  color: var(--title-text-color);
+  background-color: var(--white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.filter-button .link {
+  background: #f5f4fa;
+  color: var(--title-text-color);
+}
+
+.filter-button .link:hover,
+.filter-button .link:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.button {
+  font-family: inherit;
+}
+/* container portfolio */
+.portfolio-section .title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  }
+  text-decoration: none;
+}
 
-.filter .text {
+.portfolio-section .text {
   font-size: 16px;
   line-height: 1.9;
   color: var(--primery-text-color);
 }
+.portfolio-section .link {
+  width: 370px;
+  height: 404px;
+  text-decoration: none;
+}
 
-  /* contacts */
+.portfolio-section .link:visited {
+  color: var(--title-text-color);
+}
+
+/* contacts */
 .contacts {
   background-color: var(--dark-gray-color);
 }
 
 .contacts .logo {
-  font-family: Raleway;
+  font-family: raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
 }
-
 
 .contacts .web {
   color: var(--accent-color);
@@ -104,17 +141,16 @@ body {
   color: var(--white-color);
 }
 
-  /* address */
+/* address */
 .work-address {
   color: var(--white-color);
   font-style: normal;
 }
 
-.address .info {
-  color: var(--primery-text-color);
+.contacts .info {
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
   text-decoration: none;
 }
-

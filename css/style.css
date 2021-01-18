@@ -72,6 +72,10 @@ body {
 .address .info {
   color: var(--primery-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 
 /* hero */
@@ -103,8 +107,15 @@ body {
 .dignity .title {
   color: var(--title-text-color);
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+
+.dignity .text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* exemples и teams */
@@ -135,11 +146,16 @@ body {
   text-align: center;
 }
 
-.teams .name-title {
-  color: #212121;
+.name .name-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .name .text {
+  font-size: 16px;
+  line-height: 1.19;
   font-weight: normal;
 }
 
@@ -167,7 +183,10 @@ body {
 .work-address {
   color: var(--white-color);
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
+
 .contacts .info {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;

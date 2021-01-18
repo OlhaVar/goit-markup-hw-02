@@ -84,6 +84,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  font-style: normal;
 }
 
 .filter-button .link:hover,
@@ -92,7 +93,7 @@ body {
   color: var(--white-color);
 }
 
-.button {
+button {
   font-family: inherit;
 }
 /* container portfolio */
